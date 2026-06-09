@@ -42,7 +42,7 @@ function TikTokIcon({ className }) {
 const socialLinks = [
     { Icon: InstagramIcon, label: "Instagram", href: "https://instagram.com/dealovasalon_id" },
     { Icon: FacebookIcon, label: "Facebook", href: "https://facebook.com/dealovasalon" },
-    { Icon: TikTokIcon, label: "TikTok", href: "https://tiktok.com/@dealovasalon" },
+    { Icon: TikTokIcon, label: "TikTok", href: "https://www.tiktok.com/@dealovasalon" },
 ];
 
 export default function Footer() {
@@ -135,7 +135,7 @@ export default function Footer() {
                                         Alamat
                                     </p>
                                     <p className="text-sm text-white/55" style={{ fontFamily: "'Inter', sans-serif" }}>
-                                        Jl. Mawar No. 12, Kediri,<br />Jawa Timur
+                                        Jl. Sidomukti No.12, Dsn. Bancaan,<br /> Ds. Mojosari, Kec. Kauman<br />Kab. Tulungagung, Jawa Timur 66261
                                     </p>
                                 </div>
                             </div>
