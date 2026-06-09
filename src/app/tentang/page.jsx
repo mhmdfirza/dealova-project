@@ -34,25 +34,11 @@ const values = [
 
 const team = [
     {
-        name: "Dewi Rahayu",
-        role: "Hair Specialist",
-        specialty: "Coloring & Smoothing Expert",
-        experience: "7 tahun pengalaman",
+        name: "Dias Risfatul Khanifah",
+        role: "Owner",
+        specialty: "Sertifikasi Hairdresser & Make Up Artist",
+        experience: "10 tahun pengalaman",
         image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=500&fit=crop&crop=face",
-    },
-    {
-        name: "Sinta Amelia",
-        role: "Skincare Therapist",
-        specialty: "Facial & Acne Specialist",
-        experience: "5 tahun pengalaman",
-        image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=500&fit=crop&crop=face",
-    },
-    {
-        name: "Rani Kusuma",
-        role: "Spa & Body Therapist",
-        specialty: "Massage & Body Treatment",
-        experience: "6 tahun pengalaman",
-        image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=500&fit=crop&crop=face",
     },
 ];
 
@@ -147,7 +133,8 @@ export default function TentangPage() {
                                         <span className="text-white text-xl">✦</span>
                                     </div>
                                     <div>
-                                        <p className="font-bold text-[#1E1B4B] text-lg" style={{ fontFamily: "'Playfair Display', serif" }}>5 Tahun</p>
+                                        <p className="font-bold text-[#1E1B4B] text-lg" style={{ fontFamily: "'Playfair Display', serif" }}>10
+                                            Tahun</p>
                                         <p className="text-[#6B7280] text-xs" style={{ fontFamily: "'Inter', sans-serif" }}>Melayani dengan sepenuh hati</p>
                                     </div>
                                 </div>
