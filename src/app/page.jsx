@@ -19,8 +19,7 @@ import {
     CalendarDays,
 } from "lucide-react";
 import BeforeAfterSlider from "@/components/BeforeAfterSlider";
-
-const WA_BASE = "https://wa.me/6281234567890?text=";
+import { WA_BASE } from './credentials';
 
 // ─── Fade-up animation variant ──────────────────────────────────────
 const fadeUp = {
