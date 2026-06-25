@@ -1,0 +1,1 @@
+export const WA_BASE = "https://wa.me/6281234567890?text=";
