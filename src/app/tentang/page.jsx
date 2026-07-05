@@ -221,7 +221,7 @@ export default function TentangPage() {
                             Tim Ahli Kami
                         </h2>
                     </motion.div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
                         {team.map((member, i) => (
                             <motion.div
                                 key={member.name}

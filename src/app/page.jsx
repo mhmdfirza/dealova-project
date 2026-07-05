@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import BeforeAfterSlider from "@/components/BeforeAfterSlider";
+import { ArrowRight, Star, ChevronLeft, ChevronRight } from "lucide-react";
 // Data
 import { WA_BASE } from '../data/credentials';
 import { services, testimonials, beforeAfterPairs } from '@/data/mockData';

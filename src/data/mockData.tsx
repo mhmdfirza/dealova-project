@@ -43,14 +43,14 @@ export const services = [
     },
 ];
 
-const stats = [
+export const stats = [
     { icon: Users, value: "500+", label: "Pelanggan Puas" },
     { icon: Scissors, value: "3", label: "Layanan Utama" },
     { icon: Award, value: "5", label: "Tahun Pengalaman" },
     { icon: CalendarDays, value: "7", label: "Hari Buka" },
 ];
 
-const testimonials = [
+export const testimonials = [
     {
         name: "Sari Dewi",
         avatar: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=80&h=80&fit=crop&crop=face",
@@ -74,7 +74,7 @@ const testimonials = [
     },
 ];
 
-const beforeAfterPairs = [
+export const beforeAfterPairs = [
     {
         before: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=600&h=450&fit=crop",
         after: "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=600&h=450&fit=crop",

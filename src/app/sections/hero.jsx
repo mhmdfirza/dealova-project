@@ -6,9 +6,10 @@ import { WA_BASE } from "@/data/credentials";
 
 export default function Hero() {
     return (
-        <section ref={heroRef} className="relative h-screen min-h-[600px] overflow-hidden flex items-center">
+        // <section ref={heroRef} className="relative h-screen min-h-[600px] overflow-hidden flex items-center">
+        <section className="relative h-screen min-h-[600px] overflow-hidden flex items-center">
             {/* Parallax photo */}
-            <motion.div className="absolute inset-0 scale-110" style={{ y: heroY }}>
+            <motion.div className="absolute inset-0 scale-110"> {/* </section>style={{ y: heroY }}> */}
                 <Image
                     src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600&h=900&fit=crop"
                     alt="Dealova Beauty Care Salon"
