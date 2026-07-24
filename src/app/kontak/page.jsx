@@ -172,7 +172,7 @@ export default function KontakPage() {
                                     <div>
                                         <p className="font-semibold text-[#1E1B4B] mb-0.5" style={{ fontFamily: "'Inter', sans-serif" }}>Alamat</p>
                                         <p className="text-[#6B7280] text-sm" style={{ fontFamily: "'Inter', sans-serif" }}>
-                                            Jl. Mawar No. 12, Kediri, Jawa Timur 64133
+                                            Jl. Sidomukti No.12, Dsn. Bancaan,<br /> Ds. Mojosari, Kec. Kauman<br />Kab. Tulungagung, Jawa Timur 66261
                                         </p>
                                     </div>
                                 </div>
@@ -184,7 +184,7 @@ export default function KontakPage() {
                                     </div>
                                     <div>
                                         <p className="font-semibold text-[#1E1B4B] mb-0.5" style={{ fontFamily: "'Inter', sans-serif" }}>Telepon / WhatsApp</p>
-                                        <p className="text-[#6B7280] text-sm" style={{ fontFamily: "'Inter', sans-serif" }}>+62 812-3456-7890</p>
+                                        <p className="text-[#6B7280] text-sm" style={{ fontFamily: "'Inter', sans-serif" }}>+62 812-5979-1896</p>
                                     </div>
                                 </div>
 
@@ -215,7 +215,7 @@ export default function KontakPage() {
                                     <div>
                                         <p className="font-semibold text-[#1E1B4B] mb-0.5" style={{ fontFamily: "'Inter', sans-serif" }}>Jam Operasional</p>
                                         <p className="text-[#6B7280] text-sm" style={{ fontFamily: "'Inter', sans-serif" }}>
-                                            Senin – Minggu, 08.00 – 20.00 WIB
+                                            Selasa – Minggu, 08.00 – 18.00 WIB
                                         </p>
                                     </div>
                                 </div>
@@ -244,13 +244,14 @@ export default function KontakPage() {
                             <div className="relative h-[400px] lg:h-full min-h-[400px] rounded-3xl overflow-hidden bg-[#F8F7FF] border border-[#EDE9FE] shadow-salon flex items-center justify-center">
                                 {/* Map iframe placeholder */}
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126012.65741695272!2d111.97148075!3d-7.849039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7884aed4a3a7a1%3A0xc4bd7f8b6c8f1e5b!2sKediri%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid"
+                                    // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126012.65741695272!2d111.97148075!3d-7.849039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7884aed4a3a7a1%3A0xc4bd7f8b6c8f1e5b!2sKediri%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5838.383694203383!2d111.86180241205925!3d-8.044829180316885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78fddddf9097dd%3A0xb5a73c8857302d90!2sDealova%20beauty%20salon%20%26%20body%20care!5e1!3m2!1sen!2sid!4v1784896711322!5m2!1sen!2sid"
                                     className="absolute inset-0 w-full h-full"
                                     style={{ border: 0 }}
                                     allowFullScreen=""
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade"
-                                    title="Dealova Beauty Care Salon Location"
+                                    title="Dealova Beauty Salon & Body Care Location"
                                 />
                                 {/* Overlay label */}
                                 <div className="absolute bottom-4 left-4 right-4 z-10">
@@ -258,7 +259,7 @@ export default function KontakPage() {
                                         <div className="flex items-center gap-2">
                                             <MapPin className="w-4 h-4 text-[#8B7CF6] flex-shrink-0" />
                                             <p className="text-sm font-medium text-[#1E1B4B]" style={{ fontFamily: "'Inter', sans-serif" }}>
-                                                Dealova Beauty Care Salon — Kediri, Jawa Timur
+                                                Dealova Beauty Salon & Body Care — Tulungagung, Jawa Timur
                                             </p>
                                         </div>
                                     </div>
