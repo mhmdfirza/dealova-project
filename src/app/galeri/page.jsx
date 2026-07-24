@@ -14,10 +14,10 @@ const fadeUp = {
 const filterTabs = ["Semua", "Rambut", "Wajah", "Tubuh"];
 
 const galleryImages = [
-    { src: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=600&h=700&fit=crop", category: "Rambut", span: "row-span-2", label: "Hair Coloring" },
+    { src: "https://images.unsplash.com/photo-1712213396688-c6f2d536671f?w=600&h=700&&auto-format", category: "Rambut", span: "row-span-2", label: "Hair Coloring" },
     { src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&h=400&fit=crop", category: "Wajah", span: "", label: "Facial Treatment" },
     { src: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&h=400&fit=crop", category: "Tubuh", span: "", label: "Body Scrub" },
-    { src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&h=500&fit=crop", category: "Rambut", span: "", label: "Hair Smoothing" },
+    { src: "https://images.unsplash.com/photo-1700760934268-8aa0ef52ce0a?w=600&h=400&fit=crop", category: "Rambut", span: "", label: "Woman Haircut" },
     { src: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&h=700&fit=crop", category: "Wajah", span: "row-span-2", label: "Brightening Facial" },
     { src: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600&h=400&fit=crop", category: "Tubuh", span: "", label: "Aromatherapy Massage" },
     { src: "https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=600&h=400&fit=crop", category: "Rambut", span: "", label: "Hair Highlight" },
@@ -40,7 +40,7 @@ const beforeAfterPairs = [
         label: "Facial Brightening Transformation",
     },
     {
-        before: "https://images.unsplash.com/photo-1601280236893-d47f6a959835?w=700&h=500&fit=crop",
+        before: "https://images.unsplash.com/photo-1700522924565-9fad1c05469e?w=700&h=500&fit=crop",
         after: "https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=700&h=500&fit=crop",
         label: "Full Body Scrub Result",
     },
@@ -117,8 +117,8 @@ export default function GaleriPage() {
                             key={tab}
                             onClick={() => setActiveFilter(tab)}
                             className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-200 ${activeFilter === tab
-                                    ? "bg-gradient-to-r from-[#8B7CF6] to-[#7DD3FC] text-white shadow-md"
-                                    : "bg-[#F8F7FF] text-[#6B7280] border border-[#EDE9FE] hover:border-[#8B7CF6] hover:text-[#8B7CF6]"
+                                ? "bg-gradient-to-r from-[#8B7CF6] to-[#7DD3FC] text-white shadow-md"
+                                : "bg-[#F8F7FF] text-[#6B7280] border border-[#EDE9FE] hover:border-[#8B7CF6] hover:text-[#8B7CF6]"
                                 }`}
                             style={{ fontFamily: "'Inter', sans-serif" }}
                         >
@@ -165,10 +165,10 @@ export default function GaleriPage() {
                                     </div>
                                     <span
                                         className={`absolute top-3 left-3 text-[10px] font-bold px-2 py-1 rounded-full ${img.category === "Rambut"
-                                                ? "bg-violet-100 text-violet-700"
-                                                : img.category === "Wajah"
-                                                    ? "bg-sky-100 text-sky-700"
-                                                    : "bg-emerald-100 text-emerald-700"
+                                            ? "bg-violet-100 text-violet-700"
+                                            : img.category === "Wajah"
+                                                ? "bg-sky-100 text-sky-700"
+                                                : "bg-emerald-100 text-emerald-700"
                                             }`}
                                         style={{ fontFamily: "'Inter', sans-serif" }}
                                     >
