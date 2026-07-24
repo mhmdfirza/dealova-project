@@ -1,3 +1,13 @@
+"use client";
+import { motion } from "framer-motion";
+import { MessageCircle } from "lucide-react";
+import { WA_BASE } from "@/data/credentials";
+
+const fadeUp = {
+    hidden: { opacity: 0, y: 40 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+};
+
 export default function CTABanner() {
     return (
         <section className="py-20">
