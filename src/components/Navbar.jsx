@@ -15,7 +15,7 @@ const navLinks = [
 ];
 
 const WA_LINK =
-    "https://wa.me/6281234567890?text=Halo%20Dealova%20Beauty%20Care%2C%20saya%20ingin%20melakukan%20booking.";
+    "https://wa.me/6281259791896?text=Halo%20kak,%20saya%20ingin%20melakukan%20booking.";
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -43,8 +43,8 @@ export default function Navbar() {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
-                    ? "bg-white/80 backdrop-blur-xl shadow-sm border-b border-[#EDE9FE]"
-                    : "bg-transparent"
+                ? "bg-white/80 backdrop-blur-xl shadow-sm border-b border-[#EDE9FE]"
+                : "bg-transparent"
                 }`}
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -70,12 +70,12 @@ export default function Navbar() {
                                 key={link.href}
                                 href={link.href}
                                 className={`text-sm font-medium transition-all duration-200 relative group ${isScrolled
-                                        ? pathname === link.href
-                                            ? "text-[#8B7CF6]"
-                                            : "text-[#1E1B4B] hover:text-[#8B7CF6]"
-                                        : pathname === link.href
-                                            ? "text-[#C4B5FD]"
-                                            : "text-white/90 hover:text-white drop-shadow"
+                                    ? pathname === link.href
+                                        ? "text-[#8B7CF6]"
+                                        : "text-[#1E1B4B] hover:text-[#8B7CF6]"
+                                    : pathname === link.href
+                                        ? "text-[#C4B5FD]"
+                                        : "text-white/90 hover:text-white drop-shadow"
                                     }`}
                                 style={{ fontFamily: "'Inter', sans-serif" }}
                             >
@@ -93,8 +93,8 @@ export default function Navbar() {
                         <button
                             onClick={toggleLang}
                             className={`text-xs font-semibold px-3 py-1.5 rounded-full border transition-all duration-200 ${isScrolled
-                                    ? "border-[#EDE9FE] text-[#8B7CF6] hover:bg-[#F8F7FF]"
-                                    : "border-white/40 text-white hover:bg-white/20"
+                                ? "border-[#EDE9FE] text-[#8B7CF6] hover:bg-[#F8F7FF]"
+                                : "border-white/40 text-white hover:bg-white/20"
                                 }`}
                             style={{ fontFamily: "'Inter', sans-serif" }}
                         >
@@ -116,8 +116,8 @@ export default function Navbar() {
                     {/* Mobile hamburger */}
                     <button
                         className={`md:hidden p-2 rounded-lg transition-colors ${isScrolled || isMenuOpen
-                                ? "text-[#1E1B4B] hover:bg-[#F8F7FF]"
-                                : "text-white hover:bg-white/20"
+                            ? "text-[#1E1B4B] hover:bg-[#F8F7FF]"
+                            : "text-white hover:bg-white/20"
                             }`}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                         aria-label="Toggle menu"
@@ -144,8 +144,8 @@ export default function Navbar() {
                                     href={link.href}
                                     onClick={() => setIsMenuOpen(false)}
                                     className={`block px-4 py-3 rounded-xl text-sm font-medium transition-colors ${pathname === link.href
-                                            ? "bg-[#F8F7FF] text-[#8B7CF6]"
-                                            : "text-[#1E1B4B] hover:bg-[#F8F7FF] hover:text-[#8B7CF6]"
+                                        ? "bg-[#F8F7FF] text-[#8B7CF6]"
+                                        : "text-[#1E1B4B] hover:bg-[#F8F7FF] hover:text-[#8B7CF6]"
                                         }`}
                                     style={{ fontFamily: "'Inter', sans-serif" }}
                                 >
