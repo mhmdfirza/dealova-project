@@ -45,7 +45,7 @@ export default function Hero() {
                         style={{ fontFamily: "'Inter', sans-serif", animation: "float 3s ease-in-out infinite" }}
                     >
                         <span className="text-yellow-300">✦</span>
-                        Open Today 08.00 – 20.00 WIB
+                        Open Today 08.00 – 18.00 WIB
                     </motion.div>
 
                     <motion.h1
@@ -74,7 +74,7 @@ export default function Hero() {
                             <ArrowRight className="w-4 h-4" />
                         </Link>
                         <a
-                            href={`${WA_BASE}Halo%20Dealova%20Beauty%20Care%2C%20saya%20ingin%20booking.`}
+                            href={WA_LINK}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center justify-center gap-2 px-6 py-4 rounded-2xl bg-white/15 backdrop-blur-sm border border-white/40 text-white font-semibold text-sm hover:bg-white/25 hover:scale-105 transition-all duration-200 min-h-[52px]"

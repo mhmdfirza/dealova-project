@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, Leaf, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { WA_LINK } from "@/data/credentials";
 
 const navLinks = [
     { label: "Beranda", href: "/" },
@@ -13,9 +14,6 @@ const navLinks = [
     { label: "Tentang Kami", href: "/tentang" },
     { label: "Kontak", href: "/kontak" },
 ];
-
-const WA_LINK =
-    "https://wa.me/6281259791896?text=Halo%20kak,%20saya%20ingin%20melakukan%20booking.";
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);

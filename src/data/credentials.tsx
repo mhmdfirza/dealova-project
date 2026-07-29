@@ -1,1 +1,1 @@
-export const WA_BASE = "https://wa.me/6281234567890?text=";
+export const WA_LINK = "https://wa.me/6281259791896?text=Halo%20kak,%20saya%20ingin%20melakukan%20booking.";

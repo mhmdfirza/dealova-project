@@ -10,6 +10,7 @@ import {
     MessageCircle,
     ChevronDown,
 } from "lucide-react";
+import { WA_LINK } from "@/data/credentials";
 
 function InstagramIcon({ className }) {
     return (
@@ -18,10 +19,6 @@ function InstagramIcon({ className }) {
         </svg>
     );
 }
-
-const WA_LINK =
-    "https://wa.me/6281234567890?text=Halo%20Dealova%20Beauty%20Care%2C%20saya%20ingin%20bertanya%20tentang%20layanan.";
-
 const fadeUp = {
     hidden: { opacity: 0, y: 40 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },

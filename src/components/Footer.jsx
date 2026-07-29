@@ -2,9 +2,7 @@
 
 import Link from "next/link";
 import { Leaf, Clock, MapPin, MessageCircle } from "lucide-react";
-
-const WA_LINK =
-    "https://wa.me/6281234567890?text=Halo%20Dealova%20Beauty%20Care%2C%20saya%20ingin%20booking.";
+import { WA_LINK } from "@/data/credentials";
 
 const navLinks = [
     { label: "Beranda", href: "/" },
