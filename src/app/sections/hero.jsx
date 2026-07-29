@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, MessageCircle } from "lucide-react";
-import { WA_BASE } from "@/data/credentials";
+import { WA_LINK } from "@/data/credentials";
 
 const fadeUp = {
     hidden: { opacity: 0, y: 40 },
